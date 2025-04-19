@@ -82,6 +82,7 @@ plt.plot(t ,-(w[0]/w[1])*t - b/w[1])
 plt.plot(t ,-(w[0]/w[1])*t - (b-1)/w[1])
 plt.plot(t ,-(w[0]/w[1])*t - (b+1)/w[1])
 plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+plt.savefig('SVM.png', dpi=300, bbox_inches='tight')
 plt.show()
 
 print()
